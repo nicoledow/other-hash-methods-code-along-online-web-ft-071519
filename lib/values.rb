@@ -12,7 +12,7 @@ def get_the_values(groceries)
   items = []
   groceries.each do |category, list|
     list.each do |item|
-      
+      binding.pry
     end
   end
 end
